@@ -1,0 +1,11 @@
+RewriteEngine on
+
+php_value auto_prepend_file "waf.inc.php"
+
+<FilesMatch ".inc.php">
+    Order Allow,Deny
+    Deny from All
+</FilesMatch>
+
+Options -Indexes
+DirectoryIndex index.php
