@@ -11,4 +11,6 @@ Firewall გეხმარებათ ვებ – პროგრამე�
 - Local File inclusion (LFI) :heavy_check_mark:
 - Remote File Inclusion (RFI) :heavy_check_mark:
 - Remote Code Execution (RCE) :heavy_check_mark:
+- Block Bad Bots :heavy_check_mark:
+- Detect TOR Traffic :heavy_check_mark:
 - DoS / DDoS :heavy_multiplication_x:
