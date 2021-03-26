@@ -1,4 +1,4 @@
 <?php
-include __DIR__ . '/WAF/Firewall';
+include_once dirname(__FILE__) . '/WAF/Firewall.php';
 $waf = new Firewall();
 $waf->run();
