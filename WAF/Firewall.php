@@ -189,7 +189,7 @@ class Firewall {
      * @param bool $value
      * @return boolean
      */
-    public function setLogging(boolean $mode): bool
+    public function setLogging(bool $mode): bool
     {
         $this->logging = $mode;
 
